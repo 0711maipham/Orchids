@@ -22,5 +22,4 @@ class OrchidService {
     deleteOrchid(id, success) {
         this.orchidResource.delete({ id: id }, success);
     }
-    
 }
